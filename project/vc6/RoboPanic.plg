@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RoboPanic - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\brett\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/RoboPanic.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\tmp\RoboPanic\src\Action.cpp"
+"C:\tmp\RoboPanic\src\ActionMenu.cpp"
+"C:\tmp\RoboPanic\src\BmpLoader.cpp"
+"C:\tmp\RoboPanic\src\BoundingBox.cpp"
+"C:\tmp\RoboPanic\src\Bullet.cpp"
+"C:\tmp\RoboPanic\src\Character.cpp"
+"C:\tmp\RoboPanic\src\ddutil.cpp"
+"C:\tmp\RoboPanic\src\debug.cpp"
+"C:\tmp\RoboPanic\src\Door.cpp"
+"C:\tmp\RoboPanic\src\DXGame.cpp"
+"C:\tmp\RoboPanic\src\Enemy.cpp"
+"C:\tmp\RoboPanic\src\Entity.cpp"
+"C:\tmp\RoboPanic\src\HDoor.cpp"
+"C:\tmp\RoboPanic\src\Interface.cpp"
+"C:\tmp\RoboPanic\src\Inventory.cpp"
+"C:\tmp\RoboPanic\src\InvisibleEntity.cpp"
+"C:\tmp\RoboPanic\src\main.cpp"
+"C:\tmp\RoboPanic\src\RoboPanicGame.cpp"
+"C:\tmp\RoboPanic\src\Scene.cpp"
+"C:\tmp\RoboPanic\src\Scene1.cpp"
+"C:\tmp\RoboPanic\src\Scene2.cpp"
+"C:\tmp\RoboPanic\src\Scene3.cpp"
+"C:\tmp\RoboPanic\src\Scene4.cpp"
+"C:\tmp\RoboPanic\src\Scene5.cpp"
+"C:\tmp\RoboPanic\src\Scene6.cpp"
+"C:\tmp\RoboPanic\src\Scene7.cpp"
+"C:\tmp\RoboPanic\src\SceneCoordinate.cpp"
+"C:\tmp\RoboPanic\src\Sound.cpp"
+"C:\tmp\RoboPanic\src\Sprite.cpp"
+"C:\tmp\RoboPanic\src\Tile.cpp"
+"C:\tmp\RoboPanic\src\TileMap.cpp"
+"C:\tmp\RoboPanic\src\Timer.cpp"
+"C:\tmp\RoboPanic\src\TrashCan.cpp"
+"C:\tmp\RoboPanic\src\VDoor.cpp"
+"C:\tmp\RoboPanic\src\World.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\brett\LOCALS~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\brett\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+dinput.lib ddraw.lib dsound.lib winmm.lib user32.lib gdi32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/RoboPanic.pdb" /machine:I386 /out:"Release/RoboPanic.exe" 
+.\Release\Action.obj
+.\Release\ActionMenu.obj
+.\Release\BmpLoader.obj
+.\Release\BoundingBox.obj
+.\Release\Bullet.obj
+.\Release\Character.obj
+.\Release\ddutil.obj
+.\Release\debug.obj
+.\Release\Door.obj
+.\Release\DXGame.obj
+.\Release\Enemy.obj
+.\Release\Entity.obj
+.\Release\HDoor.obj
+.\Release\Interface.obj
+.\Release\Inventory.obj
+.\Release\InvisibleEntity.obj
+.\Release\main.obj
+.\Release\RoboPanicGame.obj
+.\Release\Scene.obj
+.\Release\Scene1.obj
+.\Release\Scene2.obj
+.\Release\Scene3.obj
+.\Release\Scene4.obj
+.\Release\Scene5.obj
+.\Release\Scene6.obj
+.\Release\Scene7.obj
+.\Release\SceneCoordinate.obj
+.\Release\Sound.obj
+.\Release\Sprite.obj
+.\Release\Tile.obj
+.\Release\TileMap.obj
+.\Release\Timer.obj
+.\Release\TrashCan.obj
+.\Release\VDoor.obj
+.\Release\World.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\brett\LOCALS~1\Temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling...
+Action.cpp
+ActionMenu.cpp
+BmpLoader.cpp
+BoundingBox.cpp
+Bullet.cpp
+Character.cpp
+ddutil.cpp
+debug.cpp
+Door.cpp
+DXGame.cpp
+C:\tmp\RoboPanic\src\DXGame.cpp(185) : warning C4390: ';' : empty controlled statement found; is this the intent?
+Enemy.cpp
+Entity.cpp
+HDoor.cpp
+Interface.cpp
+Inventory.cpp
+InvisibleEntity.cpp
+main.cpp
+RoboPanicGame.cpp
+C:\tmp\RoboPanic\src\RoboPanicGame.cpp(314) : warning C4390: ';' : empty controlled statement found; is this the intent?
+Scene.cpp
+Scene1.cpp
+Scene2.cpp
+Scene3.cpp
+Scene4.cpp
+Scene5.cpp
+Scene6.cpp
+Scene7.cpp
+SceneCoordinate.cpp
+Sound.cpp
+Sprite.cpp
+Tile.cpp
+TileMap.cpp
+Timer.cpp
+TrashCan.cpp
+VDoor.cpp
+World.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\brett\LOCALS~1\Temp\RSP13.bat" with contents
+[
+@echo off
+echo Copying .exe to root dir....
+copy .\Release\RoboPanic.exe  ..\..
+]
+Creating command line "C:\DOCUME~1\brett\LOCALS~1\Temp\RSP13.bat"
+
+Copying .exe to root dir....
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+RoboPanic.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
